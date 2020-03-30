@@ -50,6 +50,6 @@
 -->
 
 ### Contact information
-This is an early-stage side project.
-For help or issues using LocEmb, please submit a GitHub issue.
-For personal communication related to LocEmb, please contact Sundong Kim (sundong@ibs.re.kr).
+This is an early-stage project. 
+
+For help or issues using LocEmb, please submit a GitHub issue. For personal communication related to LocEmb, please contact Sundong Kim (sundong@ibs.re.kr).
