@@ -14,7 +14,7 @@
 * Poincare Embedding([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 임베딩을 학습
 * 세부 방법론 소개: [슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)
     - 해당 슬라이드에서 소개한 방법론을 일부 개선하여 적용 중
-    - 임베딩 학습을 위해 해당 슬라이드에서 언급한 데이터와는 상이한 데이터를 활용하고 있음
+    - 현재는 해당 슬라이드에서 언급한 데이터와는 상이한 데이터를 활용하고 있음
     
 ### 파일 설명
 * LocEmb-EDA.ipynb: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
