@@ -7,11 +7,11 @@
 * To-do: 사업자, 지번, 건물 등으로 확장 계획 중
 
 ### 임베딩 결과물 소개
-* embedding+시군구명.csv: 시군구2vec (전체 251개 시군구, 100 dimensions)
-* embedding+법정동명.csv: 법정동2vec (전체 5,005개 법정동, 100 dimensions)
-* embedding+행정동명.csv: 법정동2vec (전체 3,582개 행정동, 100 dimensions)
-* embedding+도로명+first5000rows.csv: 도로명2vec (전체 110,722개 중 5,000개 도로명, 100 dimensions)
-    * (Upon on request) embedding+도로명.csv: 도로명2vec (전체 110,722개 도로명, 100 dimensions)
+* [embedding+시군구명.csv](embedding+시군구명.csv): 시군구2vec (전체 251개 시군구, 100 dimensions)
+* [embedding+법정동명.csv](embedding+법정동명.csv): 법정동2vec (전체 5,005개 법정동, 100 dimensions)
+* [embedding+행정동명.csv](embedding+행정동명.csv): 행정동2vec (전체 3,582개 행정동, 100 dimensions)
+* [embedding+도로명+first5000rows.csv](embedding+도로명+first5000rows.csv): 도로명2vec (전체 110,722개 중 5,000개 도로명, 100 dimensions)
+    * (Upon on request) [embedding+도로명.csv](https://github.com/Seondong/LocEmb): 도로명2vec (전체 110,722개 도로명, 100 dimensions)
 * LocEmb-EDA.ipynb: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 
 ### 알고리즘
