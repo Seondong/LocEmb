@@ -12,7 +12,7 @@
 * [embedding+행정동명.csv](embedding+행정동명.csv): 행정동2vec (전체 3,582개 행정동, 100 dimensions)
 * [embedding+도로명+first5000rows.csv](embedding+도로명+first5000rows.csv): 도로명2vec (전체 110,722개 중 5,000개 도로명, 100 dimensions)
     * (Upon on request) [embedding+도로명.csv](https://github.com/Seondong/LocEmb): 도로명2vec (전체 110,722개 도로명, 100 dimensions)
-* LocEmb-EDA.ipynb: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
+* [LocEmb-EDA.ipynb](.): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 
 ### 알고리즘
 * Poincare Embedding([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
