@@ -11,8 +11,8 @@
 * [embedding+법정동명.csv](embedding+법정동명.csv): 법정동2vec (전체 5,005개 법정동, 100 dimensions)
 * [embedding+행정동명.csv](embedding+행정동명.csv): 행정동2vec (전체 3,582개 행정동, 100 dimensions)
 * [embedding+도로명+first5000rows.csv](embedding+도로명+first5000rows.csv): 도로명2vec (전체 110,722개 중 5,000개 도로명, 100 dimensions)
-    * (Upon on request) [embedding+도로명.csv](https://github.com/Seondong/LocEmb): 도로명2vec (전체 110,722개 도로명, 100 dimensions)
-* [LocEmb-EDA.ipynb](.): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
+    * (Upon on request) [embedding+도로명.csv](###임베딩-결과물-소개): 도로명2vec (전체 110,722개 도로명, 100 dimensions)
+* [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 
 ### 알고리즘
 * Poincare Embedding([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
@@ -33,11 +33,14 @@
     - Pytorch implementation: https://github.com/facebookresearch/poincare-embeddings
 * PNU코드: https://m.post.naver.com/viewer/postView.nhn?volumeNo=7135987&memberNo=36248235
     - 예시 ![PNU코드](fig/pnu.jpg)
+
+<!--
 * 건물관리번호 (https://www.vw-lab.com/32):
     - 생성 당시 기준의 PNU + 연번으로 구성됨, 변경되지 않는 고유값
     - 예시 ![건물관리번호](fig/bldgcode.png)
 * PNU ↔ 주소간 상호 변환과 메타데이터: https://m.post.naver.com/viewer/postView.nhn?volumeNo=7242031&memberNo=36248235
 * 주소 변환: http://juso.go.kr/dn.do?fileName=%EC%A3%BC%EC%86%8C%EC%A0%84%ED%99%98_%EA%B0%80%EC%9D%B4%EB%93%9C.pdf&realFileName=f493270c-d88f-4852-a807-17a6189a8871.pdf&regYmd=2012
+-->
 
 ### Contact information
 For help or issues using LocEmb, please submit a GitHub issue.
