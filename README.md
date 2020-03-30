@@ -20,15 +20,18 @@
     - 슬라이드에서 활용한 데이터는 현 프로젝트에서 활용한 데이터와는 상이한 데이터임
 
 ### 활용한 데이터
-* 공공데이터
-    - 소상공인시장진흥공단에서 제공한 2019년 12월 상가(상권)정보: https://www.data.go.kr/dataset/15012005/fileData.do
+* [공공 중점데이터](https://www.data.go.kr/emphasisData/index.do)의 상권분석 데이터
+    - [소상공인시장진흥공단 제공 2019년 12월 상가(상권)정보](https://www.data.go.kr/dataset/15012005/fileData.do)
+    - [소상공인시장진흥공단 제공 2019년 9월 상가(상권)정보 의료기관 정보](https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001585497&fileDetailSn=1)
 
 ### To-do
 * 지번, 건물 등으로 확장
 * 상호명 및 상권 업종으로 확장, 상호 호환되는 임베딩 마련
 * 위, 경도를 활용하는 다른 방법 고안
-* 위 데이터 이외의 오픈 데이터를 추가 feature로 활용
 * 추후 코드 공개
+* 위 데이터 이외의 오픈 데이터를 추가 feature로 활용 (활용 가능한 데이터):
+    * 주소, 건물DB: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=match
+
 
 ### 임베딩을 활용 가능한 프로젝트 예시
 * 장소 추천 / 예측 모델: 고객 동선을 모델링할 때 pretrained된 embedding값을 활용
