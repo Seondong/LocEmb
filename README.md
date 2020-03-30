@@ -15,6 +15,6 @@
 * [NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations)을 기반으로 다양한 feature를 추가하였음
 
 ### 파일 설명
-* LocEmb-EDA.html: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
+* LocEmb-EDA.ipynb: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 * embedding+법정동명전체.csv: Fine-grained embedding (5005개 법정동 Cover, 100 dimensions)
 * embedding+시군구명전체.csv: Coarse-grained embedding (251개 시군구 Cover, 100 dimensions)
