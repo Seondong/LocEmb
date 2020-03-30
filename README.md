@@ -19,7 +19,7 @@
 ### 파일 설명
 * LocEmb-EDA.ipynb: 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 * embedding+시군구명.csv: 시군구2vec (251개 시군구, 100 dimensions)
-* embedding+법정동명.csv: 법정동2vec (5005개 법정동, 100 dimensions)
-* embedding+행정동명.csv: 법정동2vec (3582개 행정동, 100 dimensions)
-* embedding+도로명+first5000rows.csv: 도로명2vec (110722개 중 5000개 도로명, 100 dimensions)
-* (Upon on request) embedding+도로명.csv: 도로명2vec (110722개 도로명 Cover, 100 dimensions)
+* embedding+법정동명.csv: 법정동2vec (5,005개 법정동, 100 dimensions)
+* embedding+행정동명.csv: 법정동2vec (3,582개 행정동, 100 dimensions)
+* embedding+도로명+first5000rows.csv: 도로명2vec (110,722개 중 5000개 도로명, 100 dimensions)
+* (Upon on request) embedding+도로명.csv: 도로명2vec (110,722개 도로명, 100 dimensions)
