@@ -23,8 +23,8 @@
     * [embedding+도로명주소.csv](###임베딩-결과물-소개): 전체 991,559개 도로명주소 (위 상호가 위치하는 도로명주소)
     * [embedding+지번주소.csv](###임베딩-결과물-소개): 전체 987,607개 지번주소 (위 상호가 위치하는 지번주소)
 
-* 임베딩 결과 분석
-    * [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
+### 임베딩 결과 분석 예제
+* [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 
 ### 알고리즘
 * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
@@ -38,12 +38,15 @@
     - [소상공인시장진흥공단 제공 2019년 9월 상가(상권)정보 의료기관 정보](https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001585497&fileDetailSn=1)
 
 ### To-do
-* 지번, 건물 등으로 확장
-* 상호명 및 상권 업종으로 확장, 상호 호환되는 임베딩 마련
+* 건물 고유 번호 등으로 추가 확장
 * 위, 경도를 활용하는 다른 방법 고안
+* GPU computing
+* 임베딩을 활용 가능한 예측/분석 테스크 예제 추가
 * 추후 코드 공개
+<!--
 * 위 데이터 이외의 오픈 데이터를 추가 feature로 활용 (활용 가능한 데이터):
     * 주소, 건물DB: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=match
+-->
 
 
 ### 임베딩을 활용 가능한 프로젝트 예시
