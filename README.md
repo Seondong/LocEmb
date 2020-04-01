@@ -6,7 +6,7 @@
 * 대한민국의 지역 및 장소별 embedding을 제공하고자 함
 
 ### 임베딩 결과물 소개
-모든 임베딩 결과는 100차원의 vector 형식임.
+모든 임베딩 결과는 100차원의 vector 형식임
 * 구역 임베딩
     * [embedding+시군구명.csv](embedding+시군구명.csv): 전체 251개 시군구
     * [embedding+법정동명.csv](embedding+법정동명.csv): 전체 5,005개 [법정동](https://namu.wiki/w/법정동)
@@ -17,7 +17,7 @@
     * [embedding+상권업종중분류명.csv](embedding+상권업종중분류명.csv): 전체 94개 상권업종중분류명
     * [embedding+상권업종소분류명.csv](embedding+상권업종소분류명.csv): 전체 737개 상권업종소분류명
     * [embedding+상호명+first5000rows.csv](embedding+상호명+first5000rows.csv): 전체 1,482,860개 상호명 중 5,000개 샘플 
-* Data available upon request:
+* Data available upon request
     * [embedding+도로명.csv](###임베딩-결과물-소개): 전체 110,722개 도로명
     * [embedding+상호명.csv](###임베딩-결과물-소개): 전체 1,482,860개 상호명
     * [embedding+도로명주소.csv](###임베딩-결과물-소개): 전체 991,559개 도로명주소 (위 상호가 위치하는 도로명주소)
@@ -59,7 +59,7 @@
     - Gensim implementation: https://radimrehurek.com/gensim/models/poincare.html
     - Pytorch implementation: https://github.com/facebookresearch/poincare-embeddings
 * PNU코드: https://m.post.naver.com/viewer/postView.nhn?volumeNo=7135987&memberNo=36248235
-    - 예시 ![PNU코드](fig/pnu.jpg)
+    ![PNU코드](fig/pnu.jpg)
 
 <!--
 * 건물관리번호 (https://www.vw-lab.com/32):
