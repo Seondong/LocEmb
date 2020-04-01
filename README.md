@@ -6,12 +6,25 @@
 * 대한민국의 지역 및 장소별 embedding을 제공하고자 함
 
 ### 임베딩 결과물 소개
-* [embedding+시군구명.csv](embedding+시군구명.csv): 시군구2vec (전체 251개 시군구, 100 dimensions)
-* [embedding+법정동명.csv](embedding+법정동명.csv): 법정동2vec (전체 5,005개 [법정동](https://namu.wiki/w/법정동), 100 dimensions)
-* [embedding+행정동명.csv](embedding+행정동명.csv): 행정동2vec (전체 3,582개 [행정동](https://namu.wiki/w/행정동), 100 dimensions)
-* [embedding+도로명+first5000rows.csv](embedding+도로명+first5000rows.csv): 도로명2vec (전체 110,722개 중 5,000개 [도로명](https://namu.wiki/w/%EB%8F%84%EB%A1%9C%EB%AA%85%EC%A3%BC%EC%86%8C), 100 dimensions)
-    * (Upon on request) [embedding+도로명.csv](###임베딩-결과물-소개): 도로명2vec (전체 110,722개 도로명, 100 dimensions)
-* [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
+모든 임베딩 결과는 100차원의 vector 형식임.
+* 구역 임베딩
+    * [embedding+시군구명.csv](embedding+시군구명.csv): 전체 251개 시군구
+    * [embedding+법정동명.csv](embedding+법정동명.csv): 전체 5,005개 [법정동](https://namu.wiki/w/법정동)
+    * [embedding+행정동명.csv](embedding+행정동명.csv): 전체 3,582개 [행정동](https://namu.wiki/w/행정동)
+    * [embedding+도로명+first5000rows.csv](embedding+도로명+first5000rows.csv): 전체 110,722개 [도로명](https://namu.wiki/w/도로명주소) 중 5,000개 샘플
+* 업종/상호 임베딩
+    * [embedding+상권업종대분류명.csv](embedding+상권업종대분류명.csv): 전체 9개 상권업종대분류명
+    * [embedding+상권업종중분류명.csv](embedding+상권업종중분류명.csv): 전체 94개 상권업종중분류명
+    * [embedding+상권업종소분류명.csv](embedding+상권업종소분류명.csv): 전체 737개 상권업종소분류명
+    * [embedding+상호명+first5000rows.csv](embedding+상호명+first5000rows.csv): 전체 1,482,860개 상호명 중 5,000개 샘플 
+* Data available upon request:
+    * [embedding+도로명.csv](###임베딩-결과물-소개): 전체 110,722개 도로명
+    * [embedding+상호명.csv](###임베딩-결과물-소개): 전체 1,482,860개 상호명
+    * [embedding+도로명주소.csv](###임베딩-결과물-소개): 전체 991,559개 도로명주소 (위 상호가 위치하는 도로명주소)
+    * [embedding+지번주소.csv](###임베딩-결과물-소개): 전체 987,607개 지번주소 (위 상호가 위치하는 지번주소)
+
+* 임베딩 결과 분석
+    * [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
 
 ### 알고리즘
 * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
