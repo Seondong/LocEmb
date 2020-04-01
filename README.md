@@ -1,6 +1,6 @@
 # LocEmb: Location Embedding
 
-* Location Embedding (Currently covering districts and roads in Korea)
+* Location Embedding (Currently covering districts, roads, and businesses in Korea)
 
 ### 프로젝트 목표
 * 대한민국의 지역 및 장소별 embedding을 제공하고자 함
