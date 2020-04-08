@@ -67,34 +67,23 @@
         * 두 번째로 유사도가 높은 __'서울특별시 서대문구 연세로7안길'__ 과 주변의 유흥주점 [[카카오맵](http://kko.to/p3xn-OLjM)]
     <a href="url"><img src="fig/yeonsei-beer.png" align="center" width="500" ></a>
 
-### 알고리즘
-* 임베딩 방법론: Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함
+### 임베딩 알고리즘
+Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함 [Working Paper](###임베딩-알고리즘)
     <a href="url"><img src="fig/hier-emb.png" align="center" width="800" ></a>
     <!--[임베딩_아키텍처](fig/hier-emb.png) -->
-    * 관련 연구 설명 및 유사 데이터를 활용한 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
+* 관련 연구 설명 및 유사 데이터를 활용한 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
 
-### 활용한 데이터
-* [공공 중점데이터](https://www.data.go.kr/emphasisData/index.do)의 상권분석 데이터
+### 임베딩에 활용한 데이터
+* [공공데이터포털 국가중점데이터](https://www.data.go.kr/emphasisData/index.do) 중 상권분석 데이터
     - [소상공인시장진흥공단 제공 2019년 12월 상가(상권)정보](https://www.data.go.kr/dataset/15012005/fileData.do)
         <!-- [소상공인시장진흥공단 제공 2019년 9월 상가(상권)정보 의료기관 정보](https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001585497&fileDetailSn=1)  -->
 
-### To-do
-* 건물 고유 번호 등으로 추가 확장
-* 위, 경도를 활용하는 다른 방법 고안
-* GPU computing
-* 임베딩을 활용 가능한 예측/분석 테스크 예제 추가
-* 추후 코드 공개
-<!--
-* 위 데이터 이외의 오픈 데이터를 추가 feature로 활용 (활용 가능한 데이터):
-    * 주소, 건물DB: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=match
--->
-
-### 임베딩을 활용 가능한 프로젝트 예시
+### 임베딩 결과를 활용 가능한 프로젝트
 * 장소 추천 / 예측 모델: 고객 동선을 모델링할 때 pretrained된 embedding값을 활용
 * 지가 및 분양가 예측 모델: 지역별 embedding값을 covariate으로 활용
 * 지역별 전염병 확산 / 예측 모델: 감염자의 동선을 활용한 모델 개발시 pretrained된 지역별 embedding값을 covariate으로 활용
 
-### 제반 지식
+### 관련 정보
 * Poincare embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))
     - Gensim implementation: https://radimrehurek.com/gensim/models/poincare.html
     - Pytorch implementation: https://github.com/facebookresearch/poincare-embeddings
@@ -109,7 +98,23 @@
 * 주소 변환: http://juso.go.kr/dn.do?fileName=%EC%A3%BC%EC%86%8C%EC%A0%84%ED%99%98_%EA%B0%80%EC%9D%B4%EB%93%9C.pdf&realFileName=f493270c-d88f-4852-a807-17a6189a8871.pdf&regYmd=2012
 -->
 
+### To-do
+* 건물 고유 번호 등으로 추가 확장
+* 위, 경도를 활용하는 다른 방법 고안
+* GPU computing
+* 임베딩을 활용 가능한 예측/분석 테스크 예제 추가
+* 페이퍼 작성 및 코드 공개
+<!--
+* 위 데이터 이외의 오픈 데이터를 추가 feature로 활용 (활용 가능한 데이터):
+    * 주소, 건물DB: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=match
+-->
+
+### License
+
+[Creative Commons Attribution-ShareAlike license (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+
 ### Contact information
 This is an early-stage project. 
 
-For help or issues using LocEmb, please submit a GitHub issue. For personal communication related to LocEmb, please contact Sundong Kim (sundong@ibs.re.kr).
+For help or issues using LocEmb, please submit a GitHub issue. For communication and collaboration related to LocEmb, please contact Sundong Kim (sundong@ibs.re.kr).
