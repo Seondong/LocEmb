@@ -27,7 +27,7 @@
 ### 임베딩 결과 분석 예제
 * [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
     * 상권업종대분류명 '숙박'의 임베딩 결과와 가장 유사도가 높은 길
-        | 도로명  | Similarity |
+        | 도로명  | 유사도 |
         | ------------- | ------------- |
         | 경기도 가평군 북면 백둔로133번길 | 95.01% |
         | 충청남도 태안군 남면 진산1길 | 94.00% |
@@ -40,8 +40,9 @@
         | 충청남도 태안군 안면읍 꽃지2길 | 92.33% |
         | 경상남도 남해군 남면 빛담촌길 | 92.33% |
         
-![연세](fig/yeonsei-beer.png)
-![가평](fig/gapyeong-lodge.png)
+
+![가평](fig/gapyeong-lodge.png | width=200)
+![연세](fig/yeonsei-beer.png | width=200)
 
 ### 알고리즘
 * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
