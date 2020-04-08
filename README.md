@@ -40,7 +40,7 @@
         | 충청남도 태안군 안면읍 꽃지2길 | 92.33% |
         | 경상남도 남해군 남면 빛담촌길 | 92.33% |
         
-
+<a href="url"><img src="fig/gapyeong-lodge.png" align="left" width="200" ></a>
 ![가평](fig/gapyeong-lodge.png | width=200)
 ![연세](fig/yeonsei-beer.png | width=200)
 
