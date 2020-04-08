@@ -39,10 +39,24 @@
         | 충청남도 태안군 남면 몽산포길 | 92.42% |
         | 충청남도 태안군 안면읍 꽃지2길 | 92.33% |
         | 경상남도 남해군 남면 빛담촌길 | 92.33% |
-        
-<a href="url"><img src="fig/gapyeong-lodge.png" align="left" width="200" ></a>
-![가평](fig/gapyeong-lodge.png | width=200)
-![연세](fig/yeonsei-beer.png | width=200)
+    * 가장 유사도가 높은 '경기도 가평군 북면 백둔로133번길'의 검색 결과
+    <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
+    * 상권업종소분류명 '호프/맥주'의 임베딩 결과와 가장 유사도가 높은 길
+        | 도로명  | 유사도 |
+        | ------------- | ------------- |
+        | 서울특별시 서대문구 연세로7안길 | 74.38% |
+        | 서울특별시 서대문구 연세로11길 | 73.93% |
+        | 강원도 원주시 토지길 | 73.64% |
+        | 서울특별시 서대문구 연세로7길 | 73.52% |
+        | 서울특별시 서대문구 연세로5다길 | 73.16% |
+        | 서울특별시 서대문구 연세로5가길 | 72.88% |
+        | 서울특별시 마포구 동교로38길 | 72.68% |
+        | 전라남도 여수시 시청동5길 | 71.88% |
+        | 서울특별시 서대문구 연세로12길 | 71.73% |
+        | 서울특별시 서대문구 명물길 | 71.31% |
+    * 가장 유사도가 높은 '경기도 가평군 북면 백둔로133번길'의 검색 결과
+    <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
+
 
 ### 알고리즘
 * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
