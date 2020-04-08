@@ -60,12 +60,10 @@
     <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
 
 ### 알고리즘
-* 임베딩 방법론: 
+* 임베딩 방법론: Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함
     <a href="url"><img src="fig/hier-emb.png" align="center" width="800" ></a>
     <!--[임베딩_아키텍처](fig/hier-emb.png) -->
-    * 요약: Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함
-    * 추가 설명 및 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
-        - 해당 슬라이드에서 소개하는 데이터는 본 프로젝트에서 활용한 데이터와는 상이함
+    * 관련 연구 설명 및 유사 데이터를 활용한 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
 
 ### 활용한 데이터
 * [공공 중점데이터](https://www.data.go.kr/emphasisData/index.do)의 상권분석 데이터
