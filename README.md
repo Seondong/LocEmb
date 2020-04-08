@@ -59,12 +59,13 @@
     <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
 
 ### 알고리즘
-* 임베딩 아키텍쳐
-    ![임베딩_아키텍처](fig/hier-emb.pdf)
-* Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 위도 및 경도를 추가로 활용하여 각 구역, 도로별 임베딩을 학습함
-* 방법론 추가 소개: [슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)
-    - 해당 슬라이드에서 소개한 방법론을 일부 개선하여 적용 중
-    - 슬라이드에서 활용한 데이터는 현 프로젝트에서 활용한 데이터와는 상이한 데이터임
+* 임베딩 방법론
+    <a href="url"><img src="fig/hier-emb.png" align="center" width="800" ></a>
+    <!--[임베딩_아키텍처](fig/hier-emb.png) -->
+    * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 한 방법론, 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로별 임베딩을 학습함
+    * 추가 슬라이드: [슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)
+        - 해당 슬라이드에서 소개한 방법론을 일부 개선하여 적용 중
+        - 슬라이드에서 활용한 데이터는 현 프로젝트에서 활용한 데이터와는 상이한 데이터임
 
 ### 활용한 데이터
 * [공공 중점데이터](https://www.data.go.kr/emphasisData/index.do)의 상권분석 데이터
