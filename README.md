@@ -42,6 +42,7 @@
         | 경상북도 경주시 서낭길 | 85.95% |
         * 가장 유사도가 높은 __'경기도 가평군 북면 백둔로133번길'__ 과 주변의 숙박 업소 [[카카오맵](http://kko.to/UiJgzhLj0)]
     <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
+    
     * 예시) 상권업종중분류명 '유흥주점'의 임베딩 결과와 가장 유사도가 높은 지역별 도로
         | 도로명  | 유사도 |
         | ------------- | ------------- |
@@ -59,18 +60,17 @@
     <a href="url"><img src="fig/gapyeong-lodge.png" align="center" width="500" ></a>
 
 ### 알고리즘
-* 임베딩 방법론
+* 임베딩 방법론: 
     <a href="url"><img src="fig/hier-emb.png" align="center" width="800" ></a>
     <!--[임베딩_아키텍처](fig/hier-emb.png) -->
-    * Poincare Embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))을 기반으로 한 방법론, 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로별 임베딩을 학습함
-    * 추가 슬라이드: [슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)
-        - 해당 슬라이드에서 소개한 방법론을 일부 개선하여 적용 중
-        - 슬라이드에서 활용한 데이터는 현 프로젝트에서 활용한 데이터와는 상이한 데이터임
+    * 요약: Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함
+    * 추가 설명 및 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
+        - 해당 슬라이드에서 소개하는 데이터는 본 프로젝트에서 활용한 데이터와는 상이함
 
 ### 활용한 데이터
 * [공공 중점데이터](https://www.data.go.kr/emphasisData/index.do)의 상권분석 데이터
     - [소상공인시장진흥공단 제공 2019년 12월 상가(상권)정보](https://www.data.go.kr/dataset/15012005/fileData.do)
-    - [소상공인시장진흥공단 제공 2019년 9월 상가(상권)정보 의료기관 정보](https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001585497&fileDetailSn=1)
+        <!-- [소상공인시장진흥공단 제공 2019년 9월 상가(상권)정보 의료기관 정보](https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001585497&fileDetailSn=1)  -->
 
 ### To-do
 * 건물 고유 번호 등으로 추가 확장
@@ -83,14 +83,13 @@
     * 주소, 건물DB: http://www.juso.go.kr/addrlink/addressBuildDevNew.do?menu=match
 -->
 
-
 ### 임베딩을 활용 가능한 프로젝트 예시
 * 장소 추천 / 예측 모델: 고객 동선을 모델링할 때 pretrained된 embedding값을 활용
-* 지가 및 분양가 예측 모델: 지역별 embedding값 활용
+* 지가 및 분양가 예측 모델: 지역별 embedding값을 covariate으로 활용
 * 지역별 전염병 확산 / 예측 모델: 감염자의 동선을 활용한 모델 개발시 pretrained된 지역별 embedding값을 covariate으로 활용
 
 ### 제반 지식
-* Poincare embedding
+* Poincare embedding ([NeurIPS2017](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations))
     - Gensim implementation: https://radimrehurek.com/gensim/models/poincare.html
     - Pytorch implementation: https://github.com/facebookresearch/poincare-embeddings
 * PNU코드: https://m.post.naver.com/viewer/postView.nhn?volumeNo=7135987&memberNo=36248235
