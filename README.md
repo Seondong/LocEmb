@@ -1,6 +1,6 @@
 # LocEmb: Location Embedding
 
-* Location Embedding (Currently covering districts, roads, and businesses in Korea)
+* Location Embedding (Currently covering districts, roads, and businesses in Korea) [[PDF]](./LocEmb.pdf)
 
 ### 프로젝트 목표
 * 대한민국의 지역 및 장소별 embedding을 제공하고자 함
@@ -88,6 +88,7 @@
 Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyperbolic space에 함께 임베딩한 방법론으로 구역 정보와 함께 위도 및 경도, 상권 분류명 정보를 활용하여 각 구역, 도로, 상권별 임베딩을 학습함  
     <a href="url"><img src="fig/hier-emb.png" align="center" width="800" ></a>
     <!--[임베딩_아키텍처](fig/hier-emb.png)  [Working Paper](###임베딩-알고리즘) -->
+* Algorithm Description [[PDF]]([[PDF]](./LocEmb.pdf)
 * 관련 연구 설명 및 유사 데이터를 활용한 분석 결과 [[슬라이드](http://seondong.github.io/assets/papers/20191213-embedding.pdf)]
 
 ### 임베딩에 활용한 데이터
@@ -130,6 +131,17 @@ Concept map을 활용하여 heterogeneous hierarchical structures을 통합, hyp
 
 [Creative Commons Attribution-ShareAlike license (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
 
+
+### Citation
+If you mention LocEmb for your publication, please cite the paper:
+```LaTeX
+@inproceedings{kim2020locemb,
+  title={Embedding Heterogeneous Hierarchical Structures},
+  author={Kim, Sundong},
+  institution={Institute for Basic Science},
+  year={2020}
+}
+```
 
 ### Contact information
 This is an early-stage project. 
