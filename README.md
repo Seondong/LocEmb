@@ -21,12 +21,12 @@
     * [embedding+상권업종중분류명.csv](embedding+상권업종중분류명.csv): 전체 94개 상권업종중분류명
     * [embedding+상권업종소분류명.csv](embedding+상권업종소분류명.csv): 전체 737개 상권업종소분류명
     * [embedding+상호명+first5000rows.csv](embedding+상호명+first5000rows.csv): 전체 1,482,860개 상호명 중 5,000개 샘플 
-* 전체 데이터 (Available upon request)
-    * [embedding+도로명.csv](###임베딩-결과물-소개): 전체 110,722개 도로명
-    * [embedding+상호명.csv](###임베딩-결과물-소개): 전체 1,482,860개 상호명 (예시: 세븐일레븐, 고봉민김밥인)
-    * [embedding+상호지점명.csv](###임베딩-결과물-소개): 전체 319,757개 상호지점명 (예시: 세븐일레븐 카이스트점, 고봉민김밥인 어은점)
-    * [embedding+도로명주소.csv](###임베딩-결과물-소개): 전체 991,559개 도로명주소 (위 상호가 위치하는 도로명주소)
-    * [embedding+지번주소.csv](###임베딩-결과물-소개): 전체 987,607개 지번주소 (위 상호가 위치하는 지번주소)
+* 전체 데이터 (.gz compressed)
+    * [embedding+도로명.csv](https://drive.google.com/file/d/1xNTlNcGCbqnE8X_OhDtAmBBVsaJLS0I8/view?usp=sharing): 전체 110,722개 도로명
+    * [embedding+상호명.csv](https://drive.google.com/file/d/14mvAliU_844KUgGOSIl2lJZKUTUGhcOF/view?usp=sharing): 전체 1,482,860개 상호명 (예시: 세븐일레븐, 고봉민김밥인)
+    * [embedding+상호지점명.csv](https://drive.google.com/file/d/1eJgTRXSrIAIU0r7Jd__I7vh7xu2nAM5H/view?usp=sharing): 전체 319,757개 상호지점명 (예시: 세븐일레븐 카이스트점, 고봉민김밥인 어은점)
+    * [embedding+도로명주소.csv](https://drive.google.com/file/d/199uavzGjbeuHlpD2rpani4O9f7zN3sYM/view?usp=sharing): 전체 991,559개 도로명주소 (위 상호가 위치하는 도로명주소)
+    * [embedding+지번주소.csv](https://drive.google.com/file/d/1sf3Kg8wxBQ-q6WJpDLjTu1Sl7An79qPG/view?usp=sharing): 전체 987,607개 지번주소 (위 상호가 위치하는 지번주소)
 
 ### 임베딩 결과 분석 예제
 * [LocEmb-EDA.ipynb](LocEmb-EDA.ipynb): 임베딩 결과값 체크 및 지역별 유사도 계산 예제
