@@ -138,7 +138,7 @@ If you mention LocEmb for your publication, please cite the paper:
 @inproceedings{kim2021locemb,
   title={Embedding Heterogeneous Hierarchical Structures},
   author={Kim, Sundong},
-  booktitle = "7th International Conference on Computational Social Science"
+  booktitle = {7th International Conference on Computational Social Science},
   year={2021}
 }
 ```
