@@ -1,6 +1,6 @@
 # LocEmb: Location Embedding
 
-* Location Embedding (Currently covering districts, roads, and businesses in Korea) [[PDF]](http://seondong.github.io/assets/papers/2021_IC2S2_LocEmb.pdf)
+* Location Embedding (Currently covering districts, roads, and businesses in Korea) [[PDF]](https://easychair.org/publications/preprint/rfGX)
 
 ### 프로젝트 목표
 * 대한민국의 지역 및 장소별 embedding을 제공하고자 함
